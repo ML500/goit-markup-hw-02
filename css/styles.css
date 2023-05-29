@@ -12,6 +12,17 @@
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
 }
+.navigation .link {
+  text-decoration: none;
+}
+
+ul .list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -74,6 +85,9 @@ body {
 .address {
   font-style: normal;
 }
+.header-address-link {
+  text-decoration: none;
+}
 .header-address {
   position: absolute;
   width: 153px;
@@ -81,10 +95,18 @@ body {
   left: 940px;
   top: 24px;
 }
-.header-address-li {
+.header-address-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.addresses:hover {
+  color: var(--color-animation);
+}
+
+.addresses:focus {
+  color: var(--color-animation);
 }
