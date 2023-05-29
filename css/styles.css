@@ -12,13 +12,6 @@
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
 }
-
-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--color-main);
-  background-color: var(--color-white);
-}
-
 .navigation .link {
   text-decoration: none;
 }
@@ -27,55 +20,76 @@ ul .list {
   list-style: none;
 }
 
-.navigation .logo {
+.link {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-main);
+  background-color: var(--color-white);
+}
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  display: flex;
+  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--color-logo);
+  color: #4d5ae5;
 }
-
-.navigation .logo .studio {
+.logo span {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
-  color: var(--color-logo-span);
+  font-size: 18px;
+  line-height: 1.17;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
 
-.main-nav {
+.header-navigation {
+  text-decoration: none;
+}
+.header-menu list {
+  list-style: none;
+}
+
+.header-menu-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-text);
-}
-
-.main-nav .link {
-  text-decoration: none;
-}
-
-.main-nav:hover {
-  color: var(--color-animation);
-}
-
-.main-nav:focus {
-  color: var(--color-animation);
+  color: #2e2f42;
 }
 
 .address {
   font-style: normal;
 }
-
-.address .link {
+.header-address-link {
   text-decoration: none;
 }
-
-.address .addresses {
+.header-address {
+  position: absolute;
+  width: 153px;
+  height: 24px;
+  left: 940px;
+  top: 24px;
+}
+.header-address-link {
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-size: 16px;
-  color: var(--color-main);
+  color: #434455;
 }
 
 .addresses:hover {
@@ -100,8 +114,6 @@ ul .list {
 }
 
 .solutions .main-button {
-  /** TEXT **/
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -109,7 +121,6 @@ ul .list {
   cursor: pointer;
   color: var(--color-white);
 
-  /** BG **/
   background-color: var(--color-logo);
 }
 
@@ -136,7 +147,7 @@ ul .list {
   color: var(--color-main);
 }
 
-.what-we-do .title {
+.we-doing .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -146,19 +157,19 @@ ul .list {
   color: var(--color-text);
 }
 
-.our-team {
+.teams {
   background: var(--color-footer);
 }
 
-.our-team .list {
+.teams .list {
   justify-content: center;
 }
 
-.our-team .workers {
-  background-color: #ffffff;
+.teams .personal {
+  justify-content: center;
 }
 
-.our-team .title {
+.teams .title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -167,7 +178,7 @@ ul .list {
   color: var(--color-text);
 }
 
-.our-team .title-team {
+.teams .team {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -176,7 +187,7 @@ ul .list {
   color: var(--color-text);
 }
 
-.our-team .description {
+.teams .description {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -184,7 +195,7 @@ ul .list {
   color: var(--color-main);
 }
 
-.btn {
+.button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -195,12 +206,12 @@ ul .list {
   cursor: pointer;
 }
 
-.btn:hover {
+.button:hover {
   color: var(--color-white);
   background-color: var(--color-animation);
 }
 
-.btn:focus {
+.button:focus {
   color: var(--color-white);
   background-color: var(--color-animation);
 }
