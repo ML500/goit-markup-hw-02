@@ -23,13 +23,16 @@ ul .list {
 .link {
   text-decoration: none;
 }
+a {
+  text-decoration: none;
+}
 
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-main);
   background-color: var(--color-white);
 }
-.header-logo {
+.logo {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -37,12 +40,9 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  /* IRIS */
-
   color: #4d5ae5;
 }
-.header-logo span {
+.logo span {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
@@ -110,3 +110,5 @@ body {
 .addresses:focus {
   color: var(--color-animation);
 }
+
+.
