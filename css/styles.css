@@ -195,7 +195,7 @@ body {
   color: var(--color-main);
 }
 
-.button {
+.btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -206,12 +206,12 @@ body {
   cursor: pointer;
 }
 
-.button:hover {
+.btn:hover {
   color: var(--color-white);
   background-color: var(--color-animation);
 }
 
-.button:focus {
+.btn:focus {
   color: var(--color-white);
   background-color: var(--color-animation);
 }
