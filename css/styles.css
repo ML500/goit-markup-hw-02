@@ -27,7 +27,7 @@ a {
   text-decoration: none;
 }
 
-.body {
+body {
   font-family: "Roboto", sans-serif;
   color: var(--color-main);
   background-color: var(--color-white);
