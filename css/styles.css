@@ -1,39 +1,23 @@
 :root {
-  --first-text-color: #2e2f42;
-  --second-text-color: #434455;
-  --third-text-color: #ffffff;
-  --fourth-text-color: #f4f4fd;
-  --background-main-color: #ffffff;
-  --background-second-color: #2e2f42;
-  --background-third-color: #f4f4fd;
-  --logo-first-color: #4d5ae5;
-  --logo-second-color: #2e2f42;
-  --logo-third-color: #f4f4fd;
-  --bttn-background-color: #404bbf;
-  --bttn-background-second-color: #f4f4fd;
-  --bttn-first-color: #4d5ae5;
-  --bttn-second-color: #ffffff;
+  --title-color: #2e2f42;
+  --main-text-color: #434455;
+  --second-text-color: #f4f4fd;
 }
-
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
   color: #434455;
-  background: #ffffff;
+  background-color: #ffffff;
 }
 
-.link {
+a {
   text-decoration: none;
 }
-
 .list {
   list-style-type: none;
 }
-
-/*----- Home page -----*/
-
-/* Header (Home page , Portfolio) */
-
+.link {
+  text-decoration: none;
+}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
