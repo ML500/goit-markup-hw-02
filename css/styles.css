@@ -41,7 +41,6 @@
   letter-spacing: 0.02em;
   color: var(--litle-text);
 }
-/**-------------HEADER--------------- */
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -92,7 +91,6 @@
   color: var(--litle-text);
 }
 
-/**------------HERO--------------- */
 .hero {
   background-color: var(--subtitle-color);
 }
@@ -119,11 +117,7 @@
 .hero-button:focus {
   background-color: #404bbf;
 }
-/**-------------ADVANTAGES-------------- */
 
-/**-------------PRODUCTS-------------- */
-
-/**-------------TEAM-------------- */
 .team-item {
   background-color: #ffffff;
 }
@@ -131,7 +125,6 @@
   background-color: #f4f4fd;
 }
 
-/**-------------FOOTER-------------- */
 .footer {
   background-color: var(--subtitle-color);
 }
@@ -157,7 +150,7 @@
   line-height: 1.17;
   color: #f4f4fd;
 }
-/**---------------PORFOLIO-NAVIGATION-------------------*/
+
 .body-portfolio {
   font-family: "Roboto", sans-serif;
   color: var(--litle-text);
@@ -179,7 +172,6 @@
   background: #404bbf;
 }
 
-/**---------------PORFOLIO-AVATAR------------------*/
 .port-avatar-title {
   font-weight: 500;
   font-size: 20px;
